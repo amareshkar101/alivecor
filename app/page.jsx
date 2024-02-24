@@ -1,7 +1,12 @@
-import Image from "next/image";
+import React from "react";
+import AlivecorLandingPageComponent from "@/components/AlivecorLandingPageComponent";
 
-export default function Home() {
+const page = async () => {
   return (
-   <>amaresh</>
+    <>
+      <AlivecorLandingPageComponent />
+    </>
   );
-}
+};
+
+export default page;
