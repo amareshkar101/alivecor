@@ -19,7 +19,6 @@ module.exports = {
 
     fontFamily: {
       outfit: ["Outfit", "sans-serif"],
-      sans: ["Nunito Sans", "sans-serif"],
     },
     extend: {
       colors: {

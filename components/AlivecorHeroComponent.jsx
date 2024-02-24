@@ -9,7 +9,7 @@ import HeroReview from "@/assets/hero/review.svg";
 const AlivecorHeroComponent = () => {
   return (
     <>
-      <div className="w-full h-full bg-brand-accent-light text-outfit">
+      <div className="w-full h-full bg-brand-accent-light font-outfit">
         <div className="w-full h-[10%] flex items-center">
           <div className="w-[40%] mt-[1%] pl-[4%]">
             <Image
@@ -48,16 +48,16 @@ const AlivecorHeroComponent = () => {
             />
           </div>
           <div className="w-[60%]">
-            <p className="text-brand-dark font-[900] text-[80px] text-outfit leading-[77px] w-[80%] mt-[7%] ml-[3%]">
+            <p className="text-brand-dark font-[700] text-[80px] font-outfit leading-[77px] w-[80%] mt-[7%] ml-[3%]">
               Medical Grade ECG{" "}
               <span className="text-brand-accent">at home</span>
             </p>
-            <p className="text-[#666666] font-[600] text-[16px] text-outfit w-[72%] mt-[2%] ml-[3.5%]">
+            <p className="text-[#666666] font-[600] text-[16px] font-outfit w-[72%] mt-[2%] ml-[3.5%]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
               facilisis eleifend quam, non efficitur nisi mattis quis. Vivamus
               scelerisque orci nec erat cursus, sed facilisis velit porttitor.
             </p>
-            <div className="ml-[3.5%] mt-[3%] text-outfit flex items-center space-x-8">
+            <div className="ml-[3.5%] mt-[3%] font-outfit flex items-center space-x-8">
               <button className="bg-brand-dark text-white text-[14px] py-3 px-10 rounded-full font-[600] cursor-pointer">
                 Buy now
               </button>
